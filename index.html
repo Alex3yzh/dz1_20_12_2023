@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dz1</title>
-</head>
-<body>
-   <p>
-         git clone
-         git -h
-         git config --global user.name
-         git config --global user.email
-         git add 
-         git status
-         git commit
-         git log
-         git push
-         git branch
-         git checkout
-         git pull
-
-   </p> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dz3</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="https://echo.free.beeceptor.com"
+        method="POST"
+        id="testform"
+      >
+        <label for="firstname_ID">First Name</label>
+        <input
+          type="text"
+          id="firstname_ID"
+          name="firstname"
+          placeholder="Enter your first name"
+        />
+        <br />
+        <br />
+        <label for="lastname_ID">Last Name</label>
+        <input
+          type="text"
+          id="lastname_ID"
+          name="lastname"
+          placeholder="Enter your last name"
+        />
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="User_email" id="email" />
+        <br />
+        <br />
+        <label for="message_ID">Message</label>
+        <textarea name="message" id="message_ID" cols="20" rows="2"></textarea>
+        <br />
+        <br />
+        <label for="gender_ID">Gender:</label>
+        <select name="gender" id="gender_ID">
+          <option value="-" disabled>Enter gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="I prefer not to specify">
+            I prefer not to specify
+          </option>
+        </select>
+        <br />
+        <br />
+        <label for="Age_ID">Age</label>
+        <input type="text" id="Age_ID" name="Age" />
+        <br />
+        <br />
+        <label for="Birthday_ID">Birthday</label>
+        <input type="date" name="Birthday" id="Birthday_ID" />
+        <br />
+        <br />
+        <button type="submit" form="testform">Submit Form Button</button>
+      </form>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="/Form.html">Form.html</a>
+  </body>
 </html>
