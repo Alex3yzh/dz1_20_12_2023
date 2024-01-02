@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dz3</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form
+        action="https://echo.free.beeceptor.com"
+        method="POST"
+        id="testform"
+      >
+        <label for="name_ID">Name:</label>
+        <input type="text" id="name_ID" name="name" />
+        <br />
+        <br />
+        <label for="email1">Email:</label>
+        <input type="email" name="User_email" id="email1" />
+        <br />
+        <br />
+        <label for="message1_ID">Message:</label>
+        <textarea name="message" id="message1_ID" cols="20" rows="2"></textarea>
+        <button type="submit" form="testform">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
