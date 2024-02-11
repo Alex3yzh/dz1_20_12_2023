@@ -1,0 +1,21 @@
+#rectangle {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+}
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid blue;
+  position: absolute;
+}
+#fade {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  opacity: 0;
+}
