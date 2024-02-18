@@ -1,8 +1,19 @@
-.container {
-  text-align: center;
-  margin-top: 50px;
+img {
+  height: 200px;
 }
-.cat-info {
-  display: none;
-  margin-top: 20px;
+.btn {
+  background-color: rgb(63, 141, 43);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 15%;
+}
+.active_btn {
+  background-color: rgb(190, 25, 66);
+  color: azure;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+ul {
+  list-style: none;
 }
