@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>dz16</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Timer Page</h1>
+    <form id="timerForm">
+      <label for="timeInput">Set Time (minutes):</label>
+      <input type="number" id="timeInput" value="1" min="1" />
+      <button type="submit">Start Timer</button>
+      <button type="button" id="stopButton">Stop Timer</button>
+    </form>
+    <div id="notification"></div>
+    <div id="progressBar">
+      <div id="progress"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
