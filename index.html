@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>dz19</title>
   </head>
-  <body></body>
+  <body>
+    <label for="color">Base Color:</label>
+    <input type="color" id="color" value="#ff0000" />
+    <label for="transparency">Transparency:</label>
+    <input
+      type="range"
+      id="transparency"
+      min="0"
+      max="1"
+      step="0.01"
+      value="0.5"
+    />
+    <br />
+    <canvas id="canvas" width="800" height="400"></canvas>
+    <button id="clearBtn">Clear Canvas</button>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
